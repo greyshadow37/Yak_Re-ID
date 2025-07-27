@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 '''Purpose: 
 - Similar to fine-tune-weights.py, evaluates a MobileNetV2 model on a test dataset.
 Key Functionality:
 - Computes embeddings, similarity matrices, and metrics.
 - Includes confusion matrix visualization.'''
-=======
->>>>>>> e5614c173 (final changes)
 import os
 import torch
 import numpy as np

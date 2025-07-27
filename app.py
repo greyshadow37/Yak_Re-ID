@@ -21,7 +21,7 @@ from torchvision import transforms
 # --- Page Configuration ---
 st.set_page_config(
     page_title="Yak Tracking and Re-Identification",
-    page_icon="🐄",
+    page_icon="🦬",
     layout="wide"
 )
 
@@ -92,7 +92,7 @@ transform = transforms.Compose([
 ])
 
 # --- Main App UI ---
-st.title("🐄 Yak Tracking and Re-Identification")
+st.title("🦬 Yak Tracking and Re-Identification")
 st.write("Upload an image or video to detect and track yaks using a custom YOLOv11 model and DeepSort.")
 st.info("This model is trained specifically for yak detection and re-identification. Adjust the confidence threshold to filter detections.")
 

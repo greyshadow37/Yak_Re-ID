@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 '''Purpose: 
 - Fine-tunes a pre-trained YOLO model on a custom dataset and evaluates it.
 Key Functionality:
 - Trains the model using a specified YAML dataset file.
 - Saves evaluation metrics to a CSV file.
 '''
-=======
->>>>>>> e5614c173 (final changes)
 from ultralytics import YOLO
 import pandas as pd
 import os

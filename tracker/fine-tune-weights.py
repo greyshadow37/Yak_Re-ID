@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 '''Purpose: 
 - Evaluates a fine-tuned MobileNetV2 model on a test dataset, computing performance metrics.
 Key Functionality:
@@ -7,8 +6,6 @@ Key Functionality:
 - Saves results and plots to a directory.
 '''
 
-=======
->>>>>>> e5614c173 (final changes)
 import os
 import torch
 import numpy as np
