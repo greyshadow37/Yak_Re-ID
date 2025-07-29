@@ -1,5 +1,5 @@
 '''Purpose: 
-- Evaluates a fine-tuned MobileNetV2 model on a test dataset, computing performance metrics.
+- Fine-tunes a fine-tuned MobileNetV2 model on a test dataset, computing performance metrics.
 Key Functionality:
 - Loads test images and computes embeddings.
 - Calculates similarity matrices and metrics (precision, recall, F1, ROC AUC).
