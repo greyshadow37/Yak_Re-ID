@@ -31,4 +31,5 @@ weights/mobilenetv2_test_results/*
 *.mp4
 *.txt
 !requirements.txt
+!runtime.txt
 !README.md
