@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 '''Purpose: 
 - Splits a dataset into train, validation, and test sets for YOLO training.
 Key Functionality:
@@ -6,8 +5,6 @@ Key Functionality:
 - Splits data based on specified ratios (e.g., 80% train, 10% val, 10% test).
 - Moves or copies images and labels to respective directories.'''
 
-=======
->>>>>>> e5614c173 (final changes)
 from pathlib import Path
 import random
 import os

@@ -17,6 +17,7 @@ from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
 from torchvision.models import mobilenet_v2
 from torchvision import transforms
+from pathlib import Path
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -26,9 +27,10 @@ st.set_page_config(
 )
 
 # --- Configuration ---
-YOLO_MODEL_PATH = r"D:\Yak-Identification\Yak_Re-ID\weights\yolo11s_finetune2\weights\best.pt"
-EXTRACTOR_MODEL_PATH = r"D:\Yak-Identification\Yak_Re-ID\weights\mobilenetv2_weights\best.pt"
-TARGET_CLASS_IDS = list(range(10))  
+BASE_DIR = Path(__file__).parent
+YOLO_MODEL_PATH = BASE_DIR / "weights" / "yolo11s_finetune2" / "weights" / "best.pt"
+EXTRACTOR_MODEL_PATH = BASE_DIR / "weights" / "mobilenetv2_weights" / "best.pt"
+TARGET_CLASS_IDS = list(range(10))
 CONFIDENCE_THRESHOLD = 0.5
 
 # --- Model Loading ---
