@@ -1,3 +1,5 @@
+# -------------------This script needs modification to work --------------------
+
 '''Purpose:
 - This script processes XML annotation files (e.g., from CVAT) to extract bounding box coordinates for yaks in images, crops the corresponding regions, and organizes them into directories based on sanitized class labels. It prepares data specifically for training or evaluating a MobileNet-based feature extractor for yak re-identification.
 Key Functionality:
