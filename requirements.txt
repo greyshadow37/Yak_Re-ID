@@ -1,3 +1,4 @@
+python==3.9.23
 streamlit==1.47.0
 pillow==11.3.0
 numpy==2.0.2
@@ -11,3 +12,5 @@ matplotlib==3.9.2
 scikit-learn==1.6.1
 pyyaml==6.0.2
 scipy==1.13.1
+flask==3.1.0
+werkzeug==3.1.3
