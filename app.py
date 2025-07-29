@@ -26,8 +26,8 @@ st.set_page_config(
 )
 
 # --- Configuration ---
-YOLO_MODEL_PATH = r"D:\Yak-Identification\repos\Yak_Re-ID\weights\yolo11s_finetune2\weights\best.pt"
-EXTRACTOR_MODEL_PATH = r"D:\Yak-Identification\repos\Yak_Re-ID\weights\mobilenetv2_weights\best.pt"
+YOLO_MODEL_PATH = r"D:\Yak-Identification\Yak_Re-ID\weights\yolo11s_finetune2\weights\best.pt"
+EXTRACTOR_MODEL_PATH = r"D:\Yak-Identification\Yak_Re-ID\weights\mobilenetv2_weights\best.pt"
 TARGET_CLASS_IDS = list(range(10))  
 CONFIDENCE_THRESHOLD = 0.5
 
